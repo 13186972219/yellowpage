@@ -36,7 +36,7 @@ class Tr
     for (var i = 0; i < this.tds.length; i++) {
       text += this.tds[i].toString();
     }
-    text += "</tr>";
+    text += "</tr>\n";
     return text;
   }
 }
@@ -63,16 +63,16 @@ class Table
     for (var i = 0; i < trs.length; i++) {
       text += trs[i].toString();
     }
-    text += "</table>";
+    text += "</table>\n";
     return text;
   }
 }
 
-css_table = 'table{border-style: double; width: 100%;}';
-css_tr = 'tr{text-align: center; width: 100%; border-style: double;}';
-css_th = 'th{text-align: center;  text-color: red; width: 100%; border-style: double;}';
-css_td = 'td{text-align: center; text-color: blue; border-style: double;}';
-htmlBegin='<html><head><title>Yellow Page</title><style>' + css_table + css_tr + css_th + css_td + '</style></head><body>';
+css_table = 'table{border-style: double; width: 100%;}\n';
+css_tr = 'tr{text-align: center; width: 100%; border-style: double;}\n';
+css_th = 'th{text-align: center;  text-color: red; width: 100%; border-style: double;}\n';
+css_td = 'td{text-align: center; text-color: blue; border-style: double; }\n';
+htmlBegin='<html><head><title>Yellow Page</title>\n<style>' + css_table + css_tr + css_th + css_td + '</style>\n</head><body>\n';
 htmlEnd='</body></html>';
 
 var app = express();

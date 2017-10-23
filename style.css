@@ -1,0 +1,85 @@
+
+body{
+	padding-top: 30px;
+}
+a{	
+	color:#000;
+	text-decoration: none;	
+}
+a:link,a:visited {
+	text-decoration: underline;
+}
+
+a:active {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+table{
+	border: 0;
+	width: 1200px;
+}
+tr{
+	height:35px;
+}
+
+.th1{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:26px;
+	color:#fff;
+	text-align: center;
+	width: 100%;
+	background-color:#0099FF;
+}
+.tdSingle1{
+	background-color:#ACD1FB;	
+	text-align: center; 
+	width: 150px;
+}
+.tdDouble1{
+	background-color:#DEEDFE;
+	text-align: center; 
+	width: 150px;
+}
+
+.th2{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:26px;
+	color:#fff;
+	text-align: center;
+	width: 100%;
+	background-color:#9933FF;
+}
+.tdSingle2{
+	background-color: #DFBFFF;
+	text-align: center; 
+	width: 150px;
+}
+.tdDouble2{
+	background-color:#F0E1FF;
+	text-align: center; 
+	width: 150px;
+}
+
+.th3{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:26px;
+	color:#fff;
+	text-align: center;
+	width: 100%;
+	background-color:#FF8000;
+}
+.tdSingle3{
+	background-color:#FFE3CA;
+	text-align: center; 
+	width: 150px;
+}
+.tdDouble3{
+	background-color:#FFEEDF;
+	text-align: center; 
+	width: 150px;
+}
+
