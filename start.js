@@ -9,7 +9,7 @@ class Link
     this.url = url;
   }
   toString(){
-      return "<a href=" + this.url + ">" + this.name + "</a>";
+      return "<a href=" + this.url + "><b>" + this.name + "</b></a>";
   }
 }
 
