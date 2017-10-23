@@ -82,7 +82,7 @@ var app = express();
 
 app.get('/',  function(req, res) {
   var cssData = fs.readFileSync('style.css').toString();
-  htmlBegin='<html><head><title>Yellow Page</title>\n<link rel="icon" href="http://www.baidu.com/img/baidu.svg"/>\n<style>' + cssData + '</style>\n</head>\n<body>\n<center>\n';
+  htmlBegin='<html><head><title>Yellow Page</title>\n<link rel="shortcut icon" href="/img/yellowpage.png"/>\n<style>' + cssData + '</style>\n</head>\n<body>\n<center>\n';
   htmlEnd='\n</center>\n</body>\n</html>';
   res.writeHead(200, {'Content-Type': 'text/html'});
   var contents = fs.readFileSync('page.conf').toString();
