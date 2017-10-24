@@ -39,13 +39,17 @@ tr{
 	background-color:#ACD1FB;	
 	text-align: center; 
 	width: 150px;
-    table-layout:fixed;
+	table-layout:fixed;
+	word-warp:break-warp;
+	word-break:break-all;
 }
 .tdDouble0{
 	background-color:#DEEDFE;
 	text-align: center; 
 	width: 150px;
-    table-layout:fixed;
+	table-layout:fixed;
+	word-warp:break-warp;
+	word-break:break-all;
 }
 
 .th1{
@@ -60,13 +64,17 @@ tr{
 	background-color: #DFBFFF;
 	text-align: center; 
 	width: 150px;
-    table-layout:fixed;
+	table-layout:fixed;
+	word-warp:break-warp;
+	word-break:break-all;
 }
 .tdDouble1{
 	background-color:#F0E1FF;
 	text-align: center; 
 	width: 150px;
-    table-layout:fixed;
+	table-layout:fixed;
+	word-warp:break-warp;
+	word-break:break-all;
 }
 
 .th2{
@@ -81,12 +89,16 @@ tr{
 	background-color:#FFE3CA;
 	text-align: center; 
 	width: 150px;
-    table-layout:fixed;
+	table-layout:fixed;
+	word-warp:break-warp;
+	word-break:break-all;
 }
 .tdDouble2{
 	background-color:#FFEEDF;
 	text-align: center; 
 	width: 150px;
-    table-layout:fixed;
+	table-layout:fixed;
+	word-warp:break-warp;
+	word-break:break-all;
 }
 
