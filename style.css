@@ -39,11 +39,13 @@ tr{
 	background-color:#ACD1FB;	
 	text-align: center; 
 	width: 150px;
+    table-layout:fixed;
 }
 .tdDouble0{
 	background-color:#DEEDFE;
 	text-align: center; 
 	width: 150px;
+    table-layout:fixed;
 }
 
 .th1{
@@ -58,11 +60,13 @@ tr{
 	background-color: #DFBFFF;
 	text-align: center; 
 	width: 150px;
+    table-layout:fixed;
 }
 .tdDouble1{
 	background-color:#F0E1FF;
 	text-align: center; 
 	width: 150px;
+    table-layout:fixed;
 }
 
 .th2{
@@ -77,10 +81,12 @@ tr{
 	background-color:#FFE3CA;
 	text-align: center; 
 	width: 150px;
+    table-layout:fixed;
 }
 .tdDouble2{
 	background-color:#FFEEDF;
 	text-align: center; 
 	width: 150px;
+    table-layout:fixed;
 }
 
