@@ -80,8 +80,6 @@ class Table
 }
 
 var app = express();
-app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
-app.use(express.static(path.join(__dirname, 'public')));
 
 app.get('/',  function(req, res) {
   var cssData = fs.readFileSync('style.css').toString();
