@@ -7,8 +7,12 @@ a{
 	color:#000;
 	text-decoration: none;	
 }
-a:link,a:visited {
+a:link{
 	text-decoration: underline;
+}
+
+a:visited {
+	color:#31D634;
 }
 
 a:active {
