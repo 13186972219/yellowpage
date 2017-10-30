@@ -1,6 +1,8 @@
 var http = require('http');
 var fs = require('fs'); 
+var path = require('path'); 
 var express = require('express');
+var favicon = require('serve-favicon');
 
 class Link
 {
@@ -77,12 +79,11 @@ class Table
   }
 }
 
-
 var app = express();
 
 app.get('/',  function(req, res) {
   var cssData = fs.readFileSync('style.css').toString();
-  htmlBegin='<html><head><title>Yellow Page</title>\n<link rel="shortcut icon" href="/img/yellowpage.png"/>\n<style>' + cssData + '</style>\n</head>\n<body>\n<center>\n';
+  htmlBegin='<html><head><title>Yellow Page</title>\n<link rel="icon" href="http://10.135.167.210:80/favicon.ico?" type="image/x-icon">\n<style>' + cssData + '</style>\n</head>\n<body>\n<center>\n';
   htmlEnd='\n</center>\n</body>\n</html>';
   res.writeHead(200, {'Content-Type': 'text/html'});
   var contents = fs.readFileSync('page.conf').toString();
