@@ -4,11 +4,15 @@ body{
         font-family:"微软雅黑","黑体","宋体";
 }
 a{	
-	color:#000;
+	color:#234DCC;
 	text-decoration: none;	
 }
-a:link,a:visited {
+a:link{
 	text-decoration: underline;
+}
+
+a:visited {
+	color:#454545;
 }
 
 a:active {
@@ -58,7 +62,7 @@ tr{
 	color:#fff;
 	text-align: center;
 	width: 100%;
-	background-color:#9933FF;
+	background-color:#9A72C2;
 }
 .tdSingle1{
 	background-color: #DFBFFF;
@@ -83,7 +87,7 @@ tr{
 	color:#fff;
 	text-align: center;
 	width: 100%;
-	background-color:#FF8000;
+	background-color:#CC8C4E;
 }
 .tdSingle2{
 	background-color:#FFE3CA;

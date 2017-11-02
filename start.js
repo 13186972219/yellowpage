@@ -4,6 +4,8 @@ var path = require('path');
 var express = require('express');
 var favicon = require('serve-favicon');
 
+let TableCircle=3
+
 class Link
 {
   constructor(name, url){
@@ -24,9 +26,9 @@ class Td
   }
   toString(){
     if (this.col % 7 % 2 == 0)
-      return "\n<td class='tdSingle" + this.table%3 + "'>" + this.link.toString() + "</td>";
+      return "\n<td class='tdSingle" + this.table%TableCircle + "'>" + this.link.toString() + "</td>";
     else
-      return "\n<td class='tdDouble" + this.table%3 + "'>" + this.link.toString() + "</td>";
+      return "\n<td class='tdDouble" + this.table%TableCircle + "'>" + this.link.toString() + "</td>";
   }
 }
 
@@ -63,7 +65,7 @@ class Table
   }
   toString(){
     var trs = [];
-    var text = "\n<table cellpadding='3' cellspacing='3'>\n<tr>\n<th colspan='7' class='th" + this.id%3 + "'>" + this.title + "</th>\n</tr>";
+    var text = "\n<table cellpadding='3' cellspacing='3'>\n<tr>\n<th colspan='7' class='th" + this.id%TableCircle + "'>" + this.title + "</th>\n</tr>";
     for (var i = 0; i < this.tds.length; i++) {
       if (i % 7 == 0) {
         trs.push(new Tr());
